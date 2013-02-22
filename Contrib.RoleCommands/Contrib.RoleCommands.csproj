@@ -88,6 +88,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Commands\RoleCommands.cs" />
+    <Compile Include="ImportExport\RolePermissionsCustomExportStep.cs" />
+    <Compile Include="ImportExport\RolePermissionsExportEventHandler.cs" />
+    <Compile Include="ImportExport\RolePermissionsRecipeHandler.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

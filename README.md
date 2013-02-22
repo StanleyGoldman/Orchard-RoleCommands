@@ -1,7 +1,8 @@
 Orchard-RoleCommands
-========================
+=
 
 Orchard CMS Role Commands
+-
 
 **role list** *[/WithFeature:"feature"] [/WithPermission:permission] [/IncludeUsers:true|false] [/IncludePermissions:true|false]*  
 Lists all roles by name
@@ -32,3 +33,27 @@ Creates a Role
 
 **role delete** &lt;role&gt;  
 Deletes a Role
+
+Orchard RolePermissions Export &amp; Recipe Handler
+-
+
+This module also adds a custom Export for every Role.  
+It also adds  a Recipe handler that for the creation of new Roles, as allows adding/removal of permissions.  
+
+*Example:*
+
+	<Orchard>
+	  <Recipe>
+		<Name>Test Recipe</Name>
+		<Author>admin</Author>
+	  </Recipe>
+	  <RolePermissions>
+		<Anonymous>
+		  <Remove>AddComment</Remove>
+		  <Add>Submit_CustomFormSubmission</Add>
+		</Anonymous>
+		<SomeNewRole>
+		  <Add>ViewContent</Add>
+		</SomeNewRole>
+	  </RolePermissions>
+	</Orchard>
