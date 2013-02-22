@@ -2,7 +2,7 @@
 AntiForgery: enabled
 Author: Stanley Goldman
 Website: https://github.com/StanleyGoldman/Orchard-RoleCommands
-Version: 0.1.0
+Version: 0.1.1
 OrchardVersion: 0.1.0
 Description: Commands to operate roles and permissions
 FeatureDescription: Commands to operate roles and permissions

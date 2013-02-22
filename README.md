@@ -38,7 +38,7 @@ Orchard RolePermissions Export &amp; Recipe Handler
 -
 
 This module also adds a custom Export for every Role.  
-It also adds  a Recipe handler that for the creation of new Roles, as allows adding/removal of permissions.  
+It also adds a Recipe handler that allows for the creation of new Roles, as well as adding/removal of permissions.  
 
 *Example:*
 
